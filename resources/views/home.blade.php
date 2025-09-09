@@ -173,7 +173,7 @@
 <span class="text-stone-300">// Or show a specific experience manually</span>
 <span class="text-yellow-300">pipeguru</span>.<span class="text-green-400">show</span>(<span class="text-orange-400">'kyc-form'</span>);
 
-<span class="text-stone-300">// Seamlessly change the UI behind the id kyc-form anytime</span>
+<span class="text-stone-300">// Seamlessly change the UI behind the flow id kyc-form anytime</span>
 </code></pre>
         </div>
     </section>
