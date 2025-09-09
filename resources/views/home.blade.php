@@ -136,8 +136,8 @@
             <div class="h-[46px] w-[3px] bg-stone-800 dark:bg-stone-400 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
             <div class="h-[46px] w-[3px] bg-stone-800 dark:bg-stone-400 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
             <div class="h-[64px] w-[3px] bg-stone-800 dark:bg-stone-400 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
-            <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-stone-800">     
-                    <div class="p-4 bg-stone-100 mx-4 my-32 rounded-lg">
+            <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-stone-100 dark:bg-stone-800">     
+                    <div class="p-4 bg-white dark:bg-stone-900 mx-4 my-32 rounded-lg">
                         <hgroup>
                         <h4>Enable Notifications?</h4>
                         <p>Get notified when your food arrives.</p>
