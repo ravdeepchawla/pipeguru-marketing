@@ -5,7 +5,7 @@
     ]
 ])
 @php
-    $meta['image'] = 'https://wafrow.com/i/9e162233-d2d9-4f83-8087-53355fd4f43c?' . http_build_query([
+    $meta['image'] = 'https://wafrow.com/i/9f38e617-fdc9-43e2-81ee-89d90fe4ad6c?' . http_build_query([
         'title[text]' => $meta['title']
     ]);
 @endphp
