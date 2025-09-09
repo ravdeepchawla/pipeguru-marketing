@@ -29,7 +29,7 @@
                     </div>
                     <div class="flex flex-row gap-2 border-s-4 pl-2 stone-border justify-top">
                         <img src="/images/social.webp" class="w-8 h-8 rounded"/>
-                        <small class="flex-1">I'm always a bit nervous with ID checkboxs, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam, Netherlands</div></small>   
+                        <small class="flex-1">I'm always a bit nervous with ID checks, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam, Netherlands</div></small>   
                     </div>
                 </form>
             </div>
