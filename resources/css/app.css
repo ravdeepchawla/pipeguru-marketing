@@ -91,7 +91,7 @@ hgroup>p {
     @apply border-solid border-stone-200 dark:border-stone-800;
 }
 .stone-color {
-    @apply text-stone-500;
+    @apply text-stone-500 dark:text-stone-400;
 }
 .stone-color-hover {
     @apply hover:text-stone-900 hover:dark:text-stone-100;
