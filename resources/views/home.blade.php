@@ -128,7 +128,7 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="md:order-last max-w-lg">
             <h2>Stop gambling with your permission prompts</h2>
-            <p>Optimize your app's most crucial moments. A/B test the timing and copy of native iOS & Android permission prompts for Camera, Notifications, Location, and more. Find the perfect approach to maximize opt-in rates, all without a new app store submissions.</p>
+            <p>Optimize your app's most crucial moments. A/B test the timing and copy of native iOS & Android permission prompts for Camera, Notifications, Location, and more. Find the perfect approach to maximize opt-in rates.</p>
         </hgroup>
         <div class="md:order-first flex justify-center">
         <div class="relative mx-auto border-stone-800 dark:border-stone-400 bg-stone-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
@@ -150,7 +150,6 @@
                 </div>
             </div>
         </div>
-        
     </section>
     <x-forms.early />
 </x-layouts.marketing>
