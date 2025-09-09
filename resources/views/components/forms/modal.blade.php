@@ -33,11 +33,11 @@
     x-on:keydown.tab.prevent="nextFocusable().focus()"
     x-on:keydown.shift.tab.prevent="prevFocusable().focus()"
     x-show="show"
-    class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-0"
+    class="fixed inset-0 z-50 flex items-center justify-center p-4"
     style="display: none;"
 >
     <div x-on:click="close()" class="fixed inset-0 bg-black/50" x-show="show" x-transition.opacity></div>
-    <div class="bg-white dark:bg-stone-800 rounded-lg p-8 z-10 w-full max-w-md overflow-y-auto" x-show="show" x-transition>
+    <div class="bg-white dark:bg-stone-800 rounded-lg z-10 p-8 w-full max-w-md" x-show="show" x-transition>
         {{ $slot }}
     </div>
 </div>

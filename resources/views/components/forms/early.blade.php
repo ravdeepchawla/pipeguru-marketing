@@ -20,7 +20,7 @@
         @endif
         <form method="POST" action="{{ route('early-access.store') }}" class="mt-4">
             @csrf
-            <div class="flex flex-col w-sm">
+            <div class="flex flex-col max-w-sm">
                 <label for="email">Work Email</label>
                 <input type="email" name="email" id="email" placeholder="email@work.com" autocomplete="on" required class="mb-4" value="{{ old('email') }}">
             
