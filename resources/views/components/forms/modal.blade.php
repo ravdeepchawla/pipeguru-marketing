@@ -37,7 +37,7 @@
     style="display: none;"
 >
     <div x-on:click="close()" class="fixed inset-0 bg-black/50" x-show="show" x-transition.opacity></div>
-    <div class="bg-white dark:bg-gray-800 rounded-lg p-8 z-10 w-full max-w-md overflow-y-auto" x-show="show" x-transition>
+    <div class="bg-white dark:bg-stone-800 rounded-lg p-8 z-10 w-full max-w-md overflow-y-auto" x-show="show" x-transition>
         {{ $slot }}
     </div>
 </div>
