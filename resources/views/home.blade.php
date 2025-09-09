@@ -1,6 +1,6 @@
 <x-layouts.marketing>
-    <section class="sm:flex">
-    <hgroup class="py-32 sm:pr-4">
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+        <hgroup class="pt-16 sm:pt-0">
         <h1>Ship mobile app forms, instantly!</h1>
         <p>The AI assistant for product and marketing teams to launch flexible forms, surveys, and A/B tests</p>
         
@@ -13,7 +13,7 @@
         </div>
     </hgroup>
     <article>
-        <header class="max-w-lg">
+        <header>
             <code>>_ Add a KYC Step. Ask for country, then conditionally ask for a Passport or Driver's License. Use Veriff as the validation API. On success, tag user in Hubspot. Make no mistakes ✨</code>
         </header>
         <div class="relative mx-auto border-stone-800 dark:border-stone-400 bg-stone-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
