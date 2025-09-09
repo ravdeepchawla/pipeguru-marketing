@@ -11,5 +11,5 @@
 <meta name="twitter:site" content="@pipeguru" />
 <meta name="twitter:title" content="{{ $title }}" />
 <meta name="twitter:description" content=" {{ $description }}" />
-<meta name="twitter:image" content=" {{ $image }}" />
+<meta name="twitter:image" content="{{ $image }}" />
 <link rel="icon" type="image/png" sizes="32x32" href="/images/up.svg">
