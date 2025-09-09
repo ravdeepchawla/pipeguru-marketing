@@ -78,7 +78,7 @@
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Hubspot.svg" alt="HubSpot Logo" class="h-8"></div>
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Salesforce.svg" alt="Mixpanel Logo" class="h-8"></div>
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Zapier.svg" alt="Zapier Logo" class="h-8"></div>
-                <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/braze.png" alt="Braze Logo" class="h-10"></div>
+                <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/braze.png" alt="Braze Logo" class="h-8"></div>
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Apollo.svg" alt="Apollo Logo" class="h-8"></div>
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Firebase.svg" alt="Firebase Logo" class="h-8"></div>
                 <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Mixpanel.svg" alt="Mixpanel Logo" class="h-8"></div>
@@ -151,8 +151,35 @@
             </div>
         </div>
     </section>
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+        <div>
+        <hgroup>
+            <h2>Full control for developers</h2>
+            <p>Integrate our lightweight SDK and use simple hooks to trigger experiences at any point in your user journey, like during onboarding. You get complete, sandboxed control without compromising your app's core functionality.</p>
+        </hgroup>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/ReactNative.svg" alt="React Native Logo" class="h-8"></div>
+            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Flutter.svg" alt="Flutter Logo" class="h-8"></div>
+            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/iOS.svg" alt="iOS Logo" class="w-8"></div>
+            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Android.svg" alt="Android Logo" class="h-8"></div>
+        </div>
+        </div>
+        <div class="bg-stone-800 dark:bg-black p-6 rounded-lg font-mono text-sm text-white overflow-x-auto">
+<pre><code><span class="text-sky-400">import</span> <span class="text-yellow-300">pipeguru</span> <span class="text-sky-400">from</span> <span class="text-orange-400">'@pipeguru/sdk'</span>;
+
+<span class="text-stone-300">// Trigger an experience after user signs up</span>
+<span class="text-yellow-300">pipeguru</span>.<span class="text-green-400">trigger</span>(<span class="text-orange-400">'user-signed-up'</span>);
+
+<span class="text-stone-300">// Or show a specific experience manually</span>
+<span class="text-yellow-300">pipeguru</span>.<span class="text-green-400">show</span>(<span class="text-orange-400">'kyc-form'</span>);
+
+<span class="text-stone-300">// Seamlessly change the UI behind the id kyc-form anytime</span>
+</code></pre>
+        </div>
+    </section>
+    
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center" id="pricing">
-        <hgroup class="max-w-lg">
+        <hgroup class="max-w-lg md:order-last">
             <h2>Ridiculously good value</h2>
             <p>$199 per month during the early access phase. Risk-free, cancel anytime.</p>
         </hgroup>
