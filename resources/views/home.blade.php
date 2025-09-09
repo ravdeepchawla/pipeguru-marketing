@@ -29,7 +29,7 @@
                     </div>
                     <div class="flex flex-row gap-2 border-s-4 pl-2 stone-border justify-top">
                         <img src="/images/social.webp" class="w-8 h-8 rounded"/>
-                        <small class="flex-1">I'm always a bit nervous with ID checks, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam, Netherlands</div></small>   
+                        <small class="flex-1">I'm always a bit nervous with ID checkboxs, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam, Netherlands</div></small>   
                     </div>
                 </form>
             </div>
@@ -151,5 +151,24 @@
             </div>
         </div>
     </section>
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center" id="pricing">
+        <hgroup class="max-w-lg">
+            <h2>Ridiculously good value</h2>
+            <p>$199 per month during the early access phase. Risk-free, cancel anytime.</p>
+        </hgroup>
+        <article>
+            <div class="flex flex-row items-baseline gap-2"> 
+                <h2>$199</h2>
+                <span class="stone-color text-sm">per month</span>
+            </div>
+            <ul class="list-none p-0">
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> AI Assistant to build forms</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> Unlimited Forms, Surveys & A/B Tests</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> Dynamic flows & conditional logic</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> All current & future integrations</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> Unlimited team members</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> Founder-led onboarding & support</li>
+            </ul>
+        </article>
     <x-forms.early />
 </x-layouts.marketing>

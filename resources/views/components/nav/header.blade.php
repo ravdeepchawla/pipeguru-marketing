@@ -3,8 +3,11 @@
     <a href="/">
         <x-nav.logo.icon_text />
     </a>
-    @if(!request()->routeIs('early'))
-    <x-actions.early_access />
-    @endif
+    <div class="flex flex-row gap-4 items-center">
+        <a href="#pricing">
+            Pricing
+        </a>
+        <x-actions.early_access />
+    </div>
     </nav>
 </header>
