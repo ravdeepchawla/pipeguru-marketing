@@ -1,8 +1,8 @@
-@props(['name'])
+@props(['name', 'show' => false])
 
 <div
     x-data="{
-        show: false,
+        show: {{ $show ? 'true' : 'false' }},
         focusables() {
             // All focusable element types...
             let selector = 'a, button, input:not([type=\'hidden\']), textarea, select, details, [tabindex]:not([tabindex=\'-1\'])'
