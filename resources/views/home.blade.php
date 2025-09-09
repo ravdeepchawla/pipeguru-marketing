@@ -158,10 +158,10 @@
             <p>Integrate our lightweight SDK and use simple hooks to trigger experiences at any point in your user journey, like during onboarding. You get complete, sandboxed control without compromising your app's core functionality.</p>
         </hgroup>
         <div class="grid grid-cols-4 gap-4">
-            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/ReactNative.svg" alt="React Native Logo" class="h-8"></div>
-            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Flutter.svg" alt="Flutter Logo" class="h-8"></div>
-            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/iOS.svg" alt="iOS Logo" class="w-8"></div>
-            <div class="flex items-center justify-center p-8 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Android.svg" alt="Android Logo" class="h-8"></div>
+            <div class="flex items-center justify-center p-2 sm:p-4 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/ReactNative.svg" alt="React Native Logo" class="h-8"></div>
+            <div class="flex items-center justify-center p-2 sm:p-4 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Flutter.svg" alt="Flutter Logo" class="h-8"></div>
+            <div class="flex items-center justify-center p-2 sm:p-4 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/iOS.svg" alt="iOS Logo" class="h-16"></div>
+            <div class="flex items-center justify-center p-2 sm:p-4 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/Android.svg" alt="Android Logo" class="h-8"></div>
         </div>
         </div>
         <div class="bg-stone-800 dark:bg-black p-6 rounded-lg font-mono text-sm text-white overflow-x-auto">
