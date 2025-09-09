@@ -62,13 +62,13 @@ li {
     @apply pb-2;
 }
 input, textarea, select {
-    @apply p-4 border border-solid border-stone-100 text-start dark:border-stone-700 rounded mb-4;
+    @apply appearance-none text-stone-800 p-4 border border-solid border-stone-100 text-start dark:border-stone-700 rounded mb-4;
 }
 label {
     @apply pb-2 text-stone-500 dark:text-stone-400 text-xs;
 }
 section {
-        @apply dark:bg-stone-900 pt-8 pb-4 border-b border-solid border-stone-100 dark:border-stone-800;
+    @apply dark:bg-stone-900 pt-8 pb-4 border-b border-solid border-stone-100 dark:border-stone-800;
 }
 article {
     @apply mb-4 p-4 rounded-[1rem] shadow-lg dark:border border-solid border-stone-100 dark:border-stone-800 flex flex-col;
@@ -121,5 +121,21 @@ hgroup>p {
 --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+--icon-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+select::-ms-expand {
+    border: 0;
+    background-color: transparent
+}
+select:not([multiple],[size]) {
+    padding-inline-start:1rem;
+    padding-inline-end:2.5rem;
+    background-image: var(--icon-chevron);
+    background-position: center right .75rem;
+    background-size: 1rem auto;
+    background-repeat: no-repeat
+}
+select[multiple] option:checked {
+    @apply text-stone-800 bg-stone-50 dark:bg-stone-800;
 }
 

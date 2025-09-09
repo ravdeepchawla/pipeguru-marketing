@@ -1,5 +1,5 @@
-<div>
-    <a href="{{route('early')}}">
-        <x-actions.button>Get early access ✨</x-actions.button>
-    </a>
+<div x-data>
+    <x-actions.button @click="$dispatch('open-modal', 'early-access')">
+        Get early access ✨
+    </x-actions.button>
 </div>

@@ -1,13 +1,6 @@
-@php
-    $meta = [
-        'title' => 'pipeguru.ai | Get early access',
-        'description' => 'Share your tech stack details and we\'ll reach out in 24 hours',
-    ];
-@endphp
-<x-layouts.marketing :meta="$meta">
-    <div class="py-32">
+<x-forms.modal name="early-access">
     <hgroup>
-        <h1>You are awesome!</h1>
+        <h2>You are awesome!</h2>
         <p>Please share your details and we'll come back to you in 24 hours.</p>
     </hgroup>
     <form>
@@ -30,5 +23,4 @@
         </div>
         <x-actions.button>Get early access ✨</x-actions.button>
     </form>
-    </div>
-</x-layouts.marketing>
+</x-forms.modal>
