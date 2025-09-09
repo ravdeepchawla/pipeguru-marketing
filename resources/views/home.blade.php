@@ -2,7 +2,7 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="pt-16 sm:pt-0">
         <h1>Ship mobile app forms, instantly!</h1>
-        <p>The AI assistant for product and marketing teams to launch flexible forms, surveys, and A/B tests</p>
+        <p>The AI assistant for product marketing teams to launch flexible forms, surveys, and A/B tests</p>
         
         <div class="flex flex-col sm:pt-16">
             <x-actions.early_access />
