@@ -17,9 +17,9 @@
     <x-nav.meta :title="$meta['title']" :description="$meta['description']" :image="$meta['image']" />
     @vite('resources/css/app.css')
 </head>
-<body class="container mx-auto p-4">
+<body>
     <x-nav.header />
-    <main>
+    <main class="container mx-auto p-4">
     {{ $slot }}
     </main>
     <x-nav.footer />
