@@ -2,7 +2,7 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="pt-16 sm:pt-0">
         <h1>Unlock more revenue per app install 🚀</h1>
-        <p>Launch AI powered forms, in-app messages, and A/B tests without new app releases</p>
+        <p>Launch AI powered onboarding flows, in-app messages, and A/B tests without new app releases</p>
         <div class="flex flex-col sm:pt-16">
             <x-actions.early_access />
             <div class="flex flex-row pt-2 gap-2">
@@ -38,7 +38,7 @@
     </section>
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
             <hgroup>
-                <h2>Increase conversions with smarter, flexible forms</h2>
+                <h2>Increase conversions with smarter, multi-step flows</h2>
                 <p><x-icons.git-branch /> <strong>Build dynamic flows</strong> with conditional logic that adapts to user answers.</p>
                 <p><x-icons.api /> <strong>Connect to any API</strong> for autocomplete, validation and form submission.<p>
                 <p><x-icons.bolt /> <strong>Launch and iterate</strong> instantly without engineering or app store releases.<p>
@@ -70,7 +70,7 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="md:order-last max-w-lg">
             <h2>End the manual data wrangling</h2>
-            <p>Your form data can't live in a silo. On submission, instantly pipe user responses to your CRM, and send events to your analytics platforms. No more manual data entry or engineering tickets.</p>
+            <p>Your onboarding and session data can't live in a silo. On submission, instantly pipe user responses to your CRM, and send events to your analytics platforms. No more manual data entry or engineering tickets.</p>
         </hgroup>
         <div class="md:order-first">
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
