@@ -7,7 +7,7 @@
 @source '../**/*.js';
 
 h1 {
-    @apply text-6xl font-bold mb-4 font-mono;
+    @apply text-5xl sm:text-6xl font-bold mb-4 font-mono;
 }
 h2 {
     @apply text-4xl font-bold mb-4 font-mono;
