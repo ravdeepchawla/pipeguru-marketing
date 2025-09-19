@@ -70,7 +70,7 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="md:order-last max-w-lg">
             <h2>End the manual data wrangling</h2>
-            <p>Your onboarding and session data can't live in a silo. On submission, instantly pipe user responses to your CRM, and send events to your analytics platforms. No more manual data entry or engineering tickets.</p>
+            <p>Your onboarding and user session data can't live in a silo. On submission, instantly sync state with your app, pipe user responses to your CRM and push analytics events.</p>
         </hgroup>
         <div class="md:order-first">
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
