@@ -176,11 +176,34 @@
 </code></pre>
         </div>
     </section>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+        <hgroup class="md:order-last max-w-lg">
+            <h2>Your Data, Your Control</h2>
+            <p>We believe you should own your data. PipeGuru is architected to give you complete control over where your information is stored, with security at the core of every option.</p>
+        </hgroup>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <article>
+                <x-icons.cloud-lock class="h-16 w-16 mx-auto blue" />
+                <hgroup>
+                <h3>PipeGuru Hosted</h3>
+                <p>Our secure, hosted solution is built on a self-hosted Supabase instance with row-level security by design. Your data is always segregated and protected.</p>
+                </hgroup>
+            </article>
+            <article>
+                <x-icons.building-warehouse class="h-16 w-16 mx-auto blue" />
+                <hgroup>
+                <h3>Warehouse Native</h3>
+                <p>For maximum control, deploy PipeGuru directly into your own cloud infrastructure. Your sensitive user data never leaves your VPC, ensuring full compliance.</p>
+                </hgroup>
+            </article>
+        </div>
+    </section>
     
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center" id="pricing">
-        <hgroup class="max-w-lg md:order-last">
+        <hgroup class="max-w-lg">
             <h2>Ridiculously good value</h2>
-            <p>$199 per month during the early access phase. Risk-free, cancel anytime.</p>
+            <p>$199 per month during the early access phase. Risk-free, cancel anytime. Enterprise plans coming soon.</p>
         </hgroup>
         <article>
             <div class="flex flex-row items-baseline gap-2"> 
