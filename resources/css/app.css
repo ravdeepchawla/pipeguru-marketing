@@ -6,22 +6,17 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
 h1 {
-    @apply text-6xl font-bold mb-4;
+    @apply text-6xl font-bold mb-4 font-mono;
 }
 h2 {
-    @apply text-4xl font-bold mb-4;
+    @apply text-4xl font-bold mb-4 font-mono;
 }
 h3 {
-    @apply text-2xl font-bold mb-4;
+    @apply text-2xl font-bold mb-4 font-mono;
 }
 h4 {
-    @apply text-xl font-bold mb-4;
+    @apply text-xl font-bold mb-4 font-mono;
 }
 a {
     @apply text-blue-600 dark:text-blue-500;
