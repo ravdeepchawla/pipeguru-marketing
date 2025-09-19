@@ -1,7 +1,7 @@
 <x-layouts.marketing>
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="pt-16 sm:pt-0">
-        <h1>Unlock more revenue per app install 🚀</h1>
+        <h1>Unlock more revenue per app install</h1>
         <p>Launch AI powered onboarding flows, in-app messages, and A/B tests without new app releases</p>
         <div class="flex flex-col sm:pt-16">
             <x-actions.early_access />
@@ -28,7 +28,7 @@
                     </div>
                     <div class="flex flex-row gap-2 border-s-4 pl-2 stone-border justify-top">
                         <img src="/images/social.webp" class="w-8 h-8 rounded"/>
-                        <small class="flex-1">I'm always a bit nervous with ID checks, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam, Netherlands</div></small>   
+                        <small class="flex-1">I'm always a bit nervous with ID checks, but this was surprisingly smooth. Finished in under a minute.<div class="stone-color">- Adam W., Product Manager</div></small>   
                     </div>
                 </form>
             </div>
@@ -153,8 +153,8 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <div>
         <hgroup>
-            <h2>Full control for developers</h2>
-            <p>Integrate our lightweight SDK and use simple hooks to trigger experiences at any point in your user journey, like during onboarding. You get complete, sandboxed control without compromising your app's core functionality.</p>
+            <h2>Simple for developers, powerful for You</h2>
+            <p>Our lightweight SDKs are a breeze for engineers to install. With simple hooks to trigger experiences, they get an easy integration while you get full, sandboxed control to build and launch flows without touching the core app code.</p>
         </hgroup>
         <div class="grid grid-cols-4 gap-4">
             <div class="flex items-center justify-center p-2 sm:p-4 bg-stone-50 dark:bg-stone-100 rounded-lg"><img src="/images/logos/ReactNative.svg" alt="React Native Logo" class="h-8"></div>
@@ -179,22 +179,22 @@
 
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         <hgroup class="md:order-last max-w-lg">
-            <h2>Your Data, Your Control</h2>
-            <p>We believe you should own your data. PipeGuru is architected to give you complete control over where your information is stored, with security at the core of every option.</p>
+            <h2>Your data, your control. Security by design.</h2>
+            <p>Choose the security model that fits your company's needs. Whether you prefer a managed solution or need to keep data within your own infrastructure, PipeGuru provides an architecture built on trust and control.</p>
         </hgroup>
-        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <article>
-                <x-icons.cloud-lock class="h-16 w-16 mx-auto blue" />
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <article class="text-center">
+                <x-icons.cloud-lock class="h-12 w-12 mx-auto blue mb-4" />
                 <hgroup>
                 <h3>PipeGuru Hosted</h3>
-                <p>Our secure, hosted solution is built on a self-hosted Supabase instance with row-level security by design. Your data is always segregated and protected.</p>
+                <p class="text-sm">Our secure solution uses a self-hosted Supabase instance with row-level security enabled by default. Your data is always segregated and protected.</p>
                 </hgroup>
             </article>
-            <article>
-                <x-icons.building-warehouse class="h-16 w-16 mx-auto blue" />
+            <article class="text-center">
+                <x-icons.building-warehouse class="h-12 w-12 mx-auto blue mb-4" />
                 <hgroup>
                 <h3>Warehouse Native</h3>
-                <p>For maximum control, deploy PipeGuru directly into your own cloud infrastructure. Your sensitive user data never leaves your VPC, ensuring full compliance.</p>
+                <p class="text-sm">For maximum control, deploy PipeGuru in your own cloud. Your sensitive user data never leaves your VPC, ensuring full compliance and ownership.</p>
                 </hgroup>
             </article>
         </div>
