@@ -19,7 +19,7 @@ h4 {
     @apply text-xl font-bold mb-4 font-mono;
 }
 a {
-    @apply text-blue-600 dark:text-blue-500;
+    @apply text-blue-600 dark:text-blue-400;
 }
 p {
     @apply mb-4;
@@ -39,7 +39,7 @@ body {
 }
 mark {
     @apply text-blue-600 bg-white;
-    @apply dark:text-blue-500 dark:bg-stone-900;
+    @apply dark:text-blue-400 dark:bg-stone-900;
 }
 svg {
     @apply inline;
@@ -101,7 +101,7 @@ hgroup>p {
     @apply stroke-stone-600 dark:stroke-stone-500;
 }
 .blue {
-    @apply text-blue-600 dark:text-blue-500 stroke-blue-600 dark:stroke-blue-500;
+    @apply text-blue-600 dark:text-blue-400 stroke-blue-600 dark:stroke-blue-400;
 }
 .chapter {
     @apply text-stone-500 text-xs font-semibold uppercase;

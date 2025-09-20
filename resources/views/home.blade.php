@@ -44,7 +44,7 @@
                 <p><x-icons.bolt /> <strong>Launch and iterate</strong> instantly without engineering or app store releases.<p>
             </hgroup>
             <div class="bg-stone-800 dark:bg-black p-6 rounded-lg font-mono text-sm text-white overflow-x-auto">
-<pre><code><span class="text-sky-400">const</span> <span class="text-yellow-300">form</span> = {
+<pre><code><span class="text-blue-400">const</span> <span class="text-yellow-300">form</span> = {
     <span class="text-green-400">steps</span>: [
         {
         <span class="text-green-400">field</span>: <span class="text-orange-400">'country'</span>,
@@ -110,7 +110,7 @@
                         <div class="flex items-center gap-2 mb-1">
                             <span class="text-xs w-16">Variant A</span>
                             <div class="w-full bg-stone-200 dark:bg-stone-700 rounded-full h-4">
-                                <div class="bg-sky-500 h-4 rounded-full" style="width: 65%"></div>
+                                <div class="bg-blue-500 h-4 rounded-full" style="width: 65%"></div>
                             </div>
                         </div>
                         <div class="flex items-center gap-2">
@@ -142,8 +142,8 @@
                         <p>Get notified when your food arrives.</p>
                         </hgroup>
                         <div class="flex flex-row gap-2 justify-content items-center">
-                           <div class="w-1/2 text-sky-500 font-semibold">Maybe Later</div>
-                           <div class="w-1/2 bg-sky-500 rounded py-1 text-white text-center font-semibold">Enable</div>
+                           <div class="w-1/2 text-blue-500 font-semibold">Maybe Later</div>
+                           <div class="w-1/2 bg-blue-500 rounded py-1 text-white text-center font-semibold">Enable</div>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
         </div>
         </div>
         <div class="bg-stone-800 dark:bg-black p-6 rounded-lg font-mono text-sm text-white overflow-x-auto">
-<pre><code><span class="text-sky-400">import</span> <span class="text-yellow-300">pipeguru</span> <span class="text-sky-400">from</span> <span class="text-orange-400">'@pipeguru/sdk'</span>;
+<pre><code><span class="text-blue-400">import</span> <span class="text-yellow-300">pipeguru</span> <span class="text-blue-400">from</span> <span class="text-orange-400">'@pipeguru/sdk'</span>;
 
 <span class="text-stone-300">// Trigger an experience after user signs up</span>
 <span class="text-yellow-300">pipeguru</span>.<span class="text-green-400">trigger</span>(<span class="text-orange-400">'user-signed-up'</span>);
