@@ -208,7 +208,7 @@
         <article>
             <div class="flex flex-row items-baseline gap-2"> 
                 <h2>$199</h2>
-                <span class="stone-color text-sm">per month</span>
+                <span class="stone-color text-sm">per 10,000 monthly active users</span>
             </div>
             <ul class="list-none p-0">
                 <li class="flex items-center gap-2"><span class="text-emerald-500"><x-icons.checkbox /></span> AI Assistant to build forms</li>
